@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body align="center">
+        <h1>Ваш результат:</h1>
+        <div class="outer-div"><h3><b>{{ right }}</b> правильних відповідей з <b>{{ total }}</b></h3></div>
+        <a href="{{url_for('index')}}" class="button"> На головну </a>
+    </body>
+</html>

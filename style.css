@@ -1,0 +1,28 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #b38022;
+  border-style: 4px double gainsboro;
+  border-radius: 10px 10px;
+  padding-left: 5px;
+  padding-top: 25px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  background-color: #683505;
+}
+
+h2 {
+  color: #b38022;
+  border-style: 4px double gainsboro;
+  border-radius: 10px 10px;
+  padding-left: 5px;
+  padding-top: 25px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  background-color: #683505;
+}
+
